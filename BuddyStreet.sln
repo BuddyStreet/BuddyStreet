@@ -3,8 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{030C477A-8590-4E35-95C1-93A8004735DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{54C38064-BF8E-4CDE-AA67-D506DEE69DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuddyStreet.Web", "BuddyStreet.Web\BuddyStreet.Web.csproj", "{334BF879-503C-420A-9033-370332AFADD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuddyStreet.Web.Tests", "BuddyStreet.Web.Tests\BuddyStreet.Web.Tests.csproj", "{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334BF879-503C-420A-9033-370332AFADD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334BF879-503C-420A-9033-370332AFADD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334BF879-503C-420A-9033-370332AFADD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334BF879-503C-420A-9033-370332AFADD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54C38064-BF8E-4CDE-AA67-D506DEE69DBD} = {030C477A-8590-4E35-95C1-93A8004735DF}
+		{334BF879-503C-420A-9033-370332AFADD1} = {54C38064-BF8E-4CDE-AA67-D506DEE69DBD}
+		{E7F5DA9E-C41D-4D4C-8DA8-0ED97B7DCD9C} = {54C38064-BF8E-4CDE-AA67-D506DEE69DBD}
 	EndGlobalSection
 EndGlobal
